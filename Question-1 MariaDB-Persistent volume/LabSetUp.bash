@@ -114,7 +114,7 @@ spec:
       volumes:
       - name: mariadb-storage
         persistentVolumeClaim:
-          claimName: ""  # TODO: set to the PVC you create (mariadb)
+          claimName: ""
 EOF
 
 echo "✅ Lab setup complete!"
